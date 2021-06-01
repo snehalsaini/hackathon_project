@@ -15,11 +15,12 @@ The final_model.ipynb contains the pixel normalization, training and testing ima
 
 ## Steps to Execute
 #### Download all the files
+#### Download the combined images dataset from the link : 
 #### Upload the train.csv file and dataset_images folder on googledrive
 #### Run the final_model.ipynb file on Google Colab
 
 ## Some Relevant Information
-The CNN training generates 25 model files and stores parameters and weights accordingly at every iteration. Th final 25th model file has been provided here and its weights can be used to test the model on hidden dataset. 
+The CNN training generates 25 model files and stores parameters and weights accordingly at every iteration. The final 25th model file i.e. model24 (as starting from epoch number 0) has been provided here and its weights can be used to test the model on hidden dataset. 
 
 ## Scope of Improvements
 However, due to a pixel normalization in some images the model is currently trained using 100 images in the dataset and is accurately finding the match according to that. But for 4000 image, the model could still be extended, with a little modifications in image pixels pre-processing. The index error arising due to pixel normalization, is creating a gap in input features and output labels extracted which could be improved to train for all the 4420 images of the dataset.
