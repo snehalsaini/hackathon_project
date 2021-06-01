@@ -1,7 +1,7 @@
 # hackathon_project
 ## Approach
 The project includes a data-preprocessing file which puts all the pictures in the dataset in one single folder and then produces a .csv file to indicate unqiue labels for each person's images.
-The final_model.ipynb contains the pixel normalization, training and testing image function altogether. 
+The final_model.ipynb contains the pixel normalization, training and testing image function altogether. The model at the end lets you input any image and gives the respective label for the person if the match is found.
 ## Model Architecture 
 ### (0): Conv2d(1, 4, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
 ### (1): BatchNorm2d(4, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
