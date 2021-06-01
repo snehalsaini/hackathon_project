@@ -13,4 +13,12 @@ The final_model.ipynb contains the pixel normalization, training and testing ima
 ### (7): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
 ### (0): Linear(in_features=196, out_features=23, bias=True)
 
+## Steps to Execute
+#### Download all the files
+#### Upload the train.csv file and dataset_images folder on googledrive
+#### Run the final_model.ipynb file on Google Colab
+
+## Some Relevant Information
+The CNN training generates 25 model files and stores parameters and weights accordingly at every iteration. Th final 25th model file has been provided here and its weights can be used to test the model on hidden dataset. However, due to a pixel normalization in some images the model is currently trained using 100 images in the dataset and for 4000 image, the model could still be extended but with a little modifications. 
+
  
