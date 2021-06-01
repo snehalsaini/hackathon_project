@@ -15,7 +15,7 @@ The final_model.ipynb contains the pixel normalization, training and testing ima
 
 ## Steps to Execute
 #### Download all the files
-#### Download the combined images dataset from the link : 
+#### Download the combined images dataset from the link : https://drive.google.com/drive/folders/1J5HEOUo99oZ95uNSl0blk0YjBbvvH8lr?usp=sharing
 #### Upload the train.csv file and dataset_images folder on googledrive
 #### Run the final_model.ipynb file on Google Colab
 
